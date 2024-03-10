@@ -381,6 +381,7 @@
 .home-container07 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
+  margin-top: var(--dl-space-space-twounits);
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
