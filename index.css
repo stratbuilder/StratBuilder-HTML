@@ -31,7 +31,7 @@
   box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
   align-items: center;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 .testimonial-card1-icon {
   width: 2rem;
@@ -41,12 +41,13 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 .testimonial-card1-text {
   color: var(--dl-color-gray-500);
   text-align: center;
   margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: center;
 }
 .testimonial-card1-text1 {
   font-size: 1.5rem;
@@ -312,11 +313,11 @@
   padding: var(--dl-space-space-halfunit);
   max-width: var(--dl-size-size-maxwidth);
   align-items: center;
-  padding-top: var(--dl-space-space-threeunits);
+  padding-top: 0px;
   padding-left: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-threeunits);
+  padding-bottom: 0px;
   justify-content: flex-start;
 }
 .home-container02 {
@@ -327,6 +328,14 @@
 }
 .home-features-heading {
   margin-bottom: 0px;
+}
+.home-text01 {
+  align-self: center;
+  text-align: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+  text-transform: none;
+  text-decoration: none;
 }
 .home-container03 {
   width: 100%;
@@ -349,7 +358,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text1 {
+.home-text09 {
   color: var(--dl-color-gray-white);
   margin-bottom: var(--dl-space-space-unit);
 }
@@ -411,7 +420,7 @@
   width: 24px;
   height: 24px;
 }
-.home-text4 {
+.home-text12 {
   align-self: center;
 }
 .home-hero-button12 {
@@ -423,7 +432,7 @@
   width: 24px;
   height: 24px;
 }
-.home-text5 {
+.home-text13 {
   align-self: center;
 }
 .home-footer {
@@ -514,7 +523,7 @@
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
   }
-  .home-text1 {
+  .home-text09 {
     text-align: center;
   }
   .home-container05 {
@@ -608,7 +617,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text6 {
+  .home-text14 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -670,7 +679,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text6 {
+  .home-text14 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
