@@ -296,8 +296,7 @@
 }
 .heading1 {
   font-size: 48px;
-  text-align: center;
-  font-family: PT Serif;
+  font-family: "PT Sans";
   font-weight: 700;
   line-height: 150%;
 }
@@ -306,7 +305,7 @@
   font-family: Inter Tight;
   font-weight: 700;
   line-height: 150%;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .bodySmall {
   font-size: 16px;
@@ -330,7 +329,7 @@
 }
 .heading2 {
   font-size: 35px;
-  font-family: PT Serif;
+  font-family: "PT Sans";
   font-weight: 600;
   line-height: 150%;
 }
